@@ -28,3 +28,8 @@ This is a multi-line comment
 You can write comments spanning multiple lines
 */
 console.log("End of the script")
+console.log("Have a great day learning JavaScript!")
+console.log("Goodbye!")
+console.log("See you next time!")
+let yt = "PSCodingYT subscribe now!"
+console.log(yt)
