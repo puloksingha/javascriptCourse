@@ -46,6 +46,24 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 3: Expressions & Conditionals](day3/)
+**Topics Covered:**
+- Comparisons with `if/else` and ternary operators
+- `switch` statements, grouped cases, and nested switches
+- Logical operators `&&`, `||`, `!`
+- Practical checks: max value, grades, discounts, even/odd, sign, leap year, month/day lookup
+
+**Files:**
+- [script.js](day3/script.js) - Conditional logic examples
+- [day3_notes.md](day3/day3_notes.md) - Summary notes
+
+**Key Learnings:**
+- Choose between `if/else`, ternary, and `switch` for control flow
+- Prevent fallthrough with `break` and group cases for shared outcomes
+- Combine logical operators to build concise conditions
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -68,6 +86,9 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
    
    # Day 2
    node day2/script.js
+
+   # Day 3
+   node day3/script.js
    ```
 
 3. **Read the notes:**
@@ -96,7 +117,8 @@ By completing this course, you will:
 
 - [x] Day 1: JavaScript Basics
 - [x] Day 2: Data Types
-- [ ] Day 3: Coming soon...
+- [x] Day 3: Expressions & Conditionals
+- [ ] Day 4: Coming soon...
 
 ## 🔗 Additional Resources
 
@@ -108,6 +130,7 @@ By completing this course, you will:
 
 **Pulok Singha**
 - GitHub: [@puloksingha](https://github.com/puloksingha)
+- LinkedIn: [Pulok Singha](https://www.linkedin.com/in/pulok-singha)
 - Repository: [javascriptCourse](https://github.com/puloksingha/javascriptCourse)
 
 ## 📄 License
