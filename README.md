@@ -64,6 +64,27 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 4: Loops and Functions](day4/)
+**Topics Covered:**
+- Loop types: `for`, `while`, `do...while`, `for...in`, `for...of`
+- Function declaration, expression, and arrow functions
+- Parameters and return values
+- Combining loops and functions with practical examples
+- Prime checking, array operations, string manipulation
+
+**Files:**
+- [script.js](day4/script.js) - Loop and function examples
+- [day4_notes.md](day4/day4_notes.md) - Comprehensive learning guide
+
+**Key Learnings:**
+- Choose the right loop type for different scenarios
+- Write reusable functions with meaningful names
+- Use arrow functions for concise syntax
+- Master common patterns: accumulator, filtering, transformation
+- Understand function scope and return values
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -118,7 +139,8 @@ By completing this course, you will:
 - [x] Day 1: JavaScript Basics
 - [x] Day 2: Data Types
 - [x] Day 3: Expressions & Conditionals
-- [ ] Day 4: Coming soon...
+- [x] Day 4: Loops and Functions
+- [ ] Day 5: Coming soon...
 
 ## 🔗 Additional Resources
 
