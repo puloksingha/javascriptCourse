@@ -85,6 +85,30 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 5: JavaScript Strings](day5/)
+**Topics Covered:**
+- Escape sequences (\n, \t, \', \", \\, \r, \b, \f)
+- String properties and methods
+- String manipulation (toUpperCase, toLowerCase, trim, replace, split, slice, substring)
+- Character access (charAt, bracket notation)
+- String concatenation (traditional and template literals)
+- String iteration with for...of loops
+- String comparison operators
+- String immutability concept
+
+**Files:**
+- [script.js](day5/script.js) - String manipulation examples
+- [day5_notes.md](day5/day5_notes.md) - Comprehensive strings guide
+
+**Key Learnings:**
+- Strings are immutable - modifications create new strings
+- Template literals provide a modern way to concatenate strings
+- JavaScript offers numerous built-in methods for string manipulation
+- Understanding escape sequences for special characters
+- Strings can be compared using standard comparison operators
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -110,6 +134,12 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
    # Day 3
    node day3/script.js
+   
+   # Day 4
+   node day4/script.js
+   
+   # Day 5
+   node day5/script.js
    ```
 
 3. **Read the notes:**
@@ -140,7 +170,8 @@ By completing this course, you will:
 - [x] Day 2: Data Types
 - [x] Day 3: Expressions & Conditionals
 - [x] Day 4: Loops and Functions
-- [ ] Day 5: Coming soon...
+- [x] Day 5: JavaScript Strings
+- [ ] Day 6: Coming soon...
 
 ## 🔗 Additional Resources
 
