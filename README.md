@@ -109,6 +109,35 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 6: JavaScript Arrays](day6/)
+**Topics Covered:**
+- Array creation (literal and constructor)
+- Array properties (length)
+- Adding/removing elements (push, pop, shift, unshift)
+- Finding elements (indexOf, includes, find)
+- Modifying arrays (splice, slice, delete)
+- Combining arrays (concat, spread operator)
+- Converting arrays (toString, join, split)
+- Sorting and reversing arrays
+- Array iteration methods (forEach, map, filter, reduce)
+- Multidimensional arrays
+- Array destructuring and copying
+- Creating arrays with Array.from()
+
+**Files:**
+- [script.js](day6/script.js) - Array manipulation examples
+- [day6_notes.md](day6/day6_notes.md) - Comprehensive arrays guide
+
+**Key Learnings:**
+- Arrays are essential data structures for storing collections
+- Methods like push, pop, splice modify the original array
+- Map, filter, and reduce create new arrays without modifying the original
+- Spread operator provides a modern way to copy and combine arrays
+- Understanding the difference between shallow and deep copies
+- Iteration methods are fundamental for processing array data
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -140,6 +169,9 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
    
    # Day 5
    node day5/script.js
+   
+   # Day 6
+   node day6/script.js
    ```
 
 3. **Read the notes:**
@@ -168,10 +200,11 @@ By completing this course, you will:
 
 - [x] Day 1: JavaScript Basics
 - [x] Day 2: Data Types
-- [x] Day 3: Expressions & Conditionals
+- [x] Day 6: JavaScript ArraysConditionals
 - [x] Day 4: Loops and Functions
 - [x] Day 5: JavaScript Strings
-- [ ] Day 6: Coming soon...
+- [x] Day 6: JavaScript Arrays
+- [ ] Day 7: Coming soon...
 
 ## 🔗 Additional Resources
 
