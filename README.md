@@ -138,6 +138,27 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 7: JavaScript in the Browser & Arrays](day7/)
+**Topics Covered:**
+- JavaScript in the browser and the DOM
+- Using the `<script>` tag (inline and external)
+- Console object methods for debugging
+- User interaction: `alert`, `prompt`, and `confirm`
+- The `window` object and common properties
+
+**Files:**
+- [script.js](day7/script.js) - Browser-focused examples
+- [day7_notes.md](day7/day7_notes.md) - Detailed notes
+
+**Key Learnings:**
+- How JavaScript runs in the browser and interacts with pages
+- Best practices for loading scripts in HTML
+- Using console methods to debug effectively
+- Capturing user input with built-in dialog methods
+- Accessing browser information via the `window` object
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -172,6 +193,9 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
    
    # Day 6
    node day6/script.js
+
+   # Day 7
+   node day7/script.js
    ```
 
 3. **Read the notes:**
@@ -204,7 +228,8 @@ By completing this course, you will:
 - [x] Day 4: Loops and Functions
 - [x] Day 5: JavaScript Strings
 - [x] Day 6: JavaScript Arrays
-- [ ] Day 7: Coming soon...
+- [x] Day 7: JavaScript in the Browser & Arrays
+- [ ] Day 8: Coming Soon...
 
 ## 🔗 Additional Resources
 
