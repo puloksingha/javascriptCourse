@@ -159,6 +159,31 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 8: DOM (Document Object Model) Basics](day8/)
+**Topics Covered:**
+- Window and Document objects
+- Accessing document properties (head, body, title)
+- DOM tree navigation (children, childNodes, parent, siblings)
+- Node properties (nodeType, nodeValue, nodeName)
+- Searching the DOM: getElementById, getElementsByClassName, getElementsByTagName
+- Modern selectors: querySelector and querySelectorAll
+- HTMLCollection vs NodeList
+
+**Files:**
+- [script.js](day8/script.js) - DOM manipulation examples
+- [day8_notes.md](day8/day8_notes.md) - Comprehensive DOM guide
+- [index.html](day8/index.html) - HTML file for DOM practice
+
+**Key Learnings:**
+- Understanding the window and document objects in the browser
+- Navigating the DOM tree using parent, children, and sibling properties
+- Different methods to select elements from the DOM
+- Differences between live collections (HTMLCollection) and static collections (NodeList)
+- querySelector/querySelectorAll provide flexible CSS-based selection
+- Understanding node types and properties for DOM manipulation
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -196,6 +221,9 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
    # Day 7
    node day7/script.js
+   
+   # Day 8 (requires browser)
+   # Open day8/index.html in a browser
    ```
 
 3. **Read the notes:**
@@ -224,12 +252,13 @@ By completing this course, you will:
 
 - [x] Day 1: JavaScript Basics
 - [x] Day 2: Data Types
-- [x] Day 6: JavaScript ArraysConditionals
+- [x] Day 3: Expressions & Conditionals
 - [x] Day 4: Loops and Functions
 - [x] Day 5: JavaScript Strings
 - [x] Day 6: JavaScript Arrays
 - [x] Day 7: JavaScript in the Browser & Arrays
-- [ ] Day 8: Coming Soon...
+- [x] Day 8: DOM (Document Object Model) Basics
+- [ ] Day 9: Coming Soon...
 
 ## 🔗 Additional Resources
 
