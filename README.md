@@ -184,6 +184,29 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ---
 
+### [Day 9: Asynchronous JavaScript](day09/)
+**Topics Covered:**
+- Callbacks: Basic asynchronous pattern
+- Promises: States (pending, resolved, rejected) and promise methods
+- Async/Await: Modern syntax for handling asynchronous operations
+- Event Loop: How JavaScript executes asynchronous code
+- Error handling with callbacks, promises, and try/catch
+- Comparison of all three approaches
+
+**Files:**
+- [script.js](day09/script.js) - Callbacks, promises, and async/await examples
+- [day9_notes.md](day09/day9_notes.md) - Comprehensive asynchronous JavaScript guide
+
+**Key Learnings:**
+- Callbacks are basic but can lead to callback hell with nested functions
+- Promises provide better structure with .then(), .catch(), and .finally()
+- Async/Await offers the cleanest and most readable syntax
+- Understanding the Event Loop is crucial for debugging asynchronous code
+- Error handling patterns for each approach
+- Know when to use Promise.all() for multiple async operations
+
+---
+
 ## 🚀 How to Use This Repository
 
 ### Prerequisites
@@ -224,6 +247,9 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
    
    # Day 8 (requires browser)
    # Open day8/index.html in a browser
+   
+   # Day 9
+   node day09/script.js
    ```
 
 3. **Read the notes:**
@@ -258,7 +284,8 @@ By completing this course, you will:
 - [x] Day 6: JavaScript Arrays
 - [x] Day 7: JavaScript in the Browser & Arrays
 - [x] Day 8: DOM (Document Object Model) Basics
-- [ ] Day 9: Coming Soon...
+- [x] Day 9: Asynchronous JavaScript
+- [ ] Day 10: coming soon....
 
 ## 🔗 Additional Resources
 
