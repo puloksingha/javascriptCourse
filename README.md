@@ -48,262 +48,71 @@ This course is structured as a day-by-day tutorial series, covering essential Ja
 
 ### [Day 3: Expressions & Conditionals](day3/)
 **Topics Covered:**
-- Comparisons with `if/else` and ternary operators
-- `switch` statements, grouped cases, and nested switches
-- Logical operators `&&`, `||`, `!`
-- Practical checks: max value, grades, discounts, even/odd, sign, leap year, month/day lookup
+# JavaScript Course
 
-**Files:**
-- [script.js](day3/script.js) - Conditional logic examples
-- [day3_notes.md](day3/day3_notes.md) - Summary notes
+This repository contains daily JavaScript practice files and notes.
 
-**Key Learnings:**
-- Choose between `if/else`, ternary, and `switch` for control flow
-- Prevent fallthrough with `break` and group cases for shared outcomes
-- Combine logical operators to build concise conditions
+## Course Structure
 
----
+Each day folder contains:
+- `script.js` for code practice
+- `dayX_notes.md` (where available) for learning notes
 
-### [Day 4: Loops and Functions](day4/)
-**Topics Covered:**
-- Loop types: `for`, `while`, `do...while`, `for...in`, `for...of`
-- Function declaration, expression, and arrow functions
-- Parameters and return values
-- Combining loops and functions with practical examples
-- Prime checking, array operations, string manipulation
+### Days Available
 
-**Files:**
-- [script.js](day4/script.js) - Loop and function examples
-- [day4_notes.md](day4/day4_notes.md) - Comprehensive learning guide
+- [Day 01](day01/)
+- [Day 02](day02/)
+- [Day 03](day03/)
+- [Day 04](day04/)
+- [Day 05](day05/)
+- [Day 06](day06/)
+- [Day 07](day07/)
+- [Day 08](day08/) (includes `index.html` for DOM practice)
+- [Day 09](day09/)
+- [Day 10](day10/)
+- [Day 11](day11/)
+- [Day 12](day12/)
+- [Day 13](day13/)
 
-**Key Learnings:**
-- Choose the right loop type for different scenarios
-- Write reusable functions with meaningful names
-- Use arrow functions for concise syntax
-- Master common patterns: accumulator, filtering, transformation
-- Understand function scope and return values
+## How to Run
 
----
+From the project root:
 
-### [Day 5: JavaScript Strings](day5/)
-**Topics Covered:**
-- Escape sequences (\n, \t, \', \", \\, \r, \b, \f)
-- String properties and methods
-- String manipulation (toUpperCase, toLowerCase, trim, replace, split, slice, substring)
-- Character access (charAt, bracket notation)
-- String concatenation (traditional and template literals)
-- String iteration with for...of loops
-- String comparison operators
-- String immutability concept
+```bash
+node day01/script.js
+node day02/script.js
+node day03/script.js
+node day04/script.js
+node day05/script.js
+node day06/script.js
+node day07/script.js
+node day09/script.js
+node day10/script.js
+node day11/script.js
+node day12/script.js
+node day13/script.js
+```
 
-**Files:**
-- [script.js](day5/script.js) - String manipulation examples
-- [day5_notes.md](day5/day5_notes.md) - Comprehensive strings guide
+For Day 08, open `day08/index.html` in a browser.
 
-**Key Learnings:**
-- Strings are immutable - modifications create new strings
-- Template literals provide a modern way to concatenate strings
-- JavaScript offers numerous built-in methods for string manipulation
-- Understanding escape sequences for special characters
-- Strings can be compared using standard comparison operators
+## Progress
 
----
+- [x] Day 01
+- [x] Day 02
+- [x] Day 03
+- [x] Day 04
+- [x] Day 05
+- [x] Day 06
+- [x] Day 07
+- [x] Day 08
+- [x] Day 09
+- [x] Day 10
+- [x] Day 11
+- [x] Day 12
+- [x] Day 13
 
-### [Day 6: JavaScript Arrays](day6/)
-**Topics Covered:**
-- Array creation (literal and constructor)
-- Array properties (length)
-- Adding/removing elements (push, pop, shift, unshift)
-- Finding elements (indexOf, includes, find)
+## Author
+
+Pulok Singha  
+GitHub: [@puloksingha](https://github.com/puloksingha)
 - Modifying arrays (splice, slice, delete)
-- Combining arrays (concat, spread operator)
-- Converting arrays (toString, join, split)
-- Sorting and reversing arrays
-- Array iteration methods (forEach, map, filter, reduce)
-- Multidimensional arrays
-- Array destructuring and copying
-- Creating arrays with Array.from()
-
-**Files:**
-- [script.js](day6/script.js) - Array manipulation examples
-- [day6_notes.md](day6/day6_notes.md) - Comprehensive arrays guide
-
-**Key Learnings:**
-- Arrays are essential data structures for storing collections
-- Methods like push, pop, splice modify the original array
-- Map, filter, and reduce create new arrays without modifying the original
-- Spread operator provides a modern way to copy and combine arrays
-- Understanding the difference between shallow and deep copies
-- Iteration methods are fundamental for processing array data
-
----
-
-### [Day 7: JavaScript in the Browser & Arrays](day7/)
-**Topics Covered:**
-- JavaScript in the browser and the DOM
-- Using the `<script>` tag (inline and external)
-- Console object methods for debugging
-- User interaction: `alert`, `prompt`, and `confirm`
-- The `window` object and common properties
-
-**Files:**
-- [script.js](day7/script.js) - Browser-focused examples
-- [day7_notes.md](day7/day7_notes.md) - Detailed notes
-
-**Key Learnings:**
-- How JavaScript runs in the browser and interacts with pages
-- Best practices for loading scripts in HTML
-- Using console methods to debug effectively
-- Capturing user input with built-in dialog methods
-- Accessing browser information via the `window` object
-
----
-
-### [Day 8: DOM (Document Object Model) Basics](day8/)
-**Topics Covered:**
-- Window and Document objects
-- Accessing document properties (head, body, title)
-- DOM tree navigation (children, childNodes, parent, siblings)
-- Node properties (nodeType, nodeValue, nodeName)
-- Searching the DOM: getElementById, getElementsByClassName, getElementsByTagName
-- Modern selectors: querySelector and querySelectorAll
-- HTMLCollection vs NodeList
-
-**Files:**
-- [script.js](day8/script.js) - DOM manipulation examples
-- [day8_notes.md](day8/day8_notes.md) - Comprehensive DOM guide
-- [index.html](day8/index.html) - HTML file for DOM practice
-
-**Key Learnings:**
-- Understanding the window and document objects in the browser
-- Navigating the DOM tree using parent, children, and sibling properties
-- Different methods to select elements from the DOM
-- Differences between live collections (HTMLCollection) and static collections (NodeList)
-- querySelector/querySelectorAll provide flexible CSS-based selection
-- Understanding node types and properties for DOM manipulation
-
----
-
-### [Day 9: Asynchronous JavaScript](day09/)
-**Topics Covered:**
-- Callbacks: Basic asynchronous pattern
-- Promises: States (pending, resolved, rejected) and promise methods
-- Async/Await: Modern syntax for handling asynchronous operations
-- Event Loop: How JavaScript executes asynchronous code
-- Error handling with callbacks, promises, and try/catch
-- Comparison of all three approaches
-
-**Files:**
-- [script.js](day09/script.js) - Callbacks, promises, and async/await examples
-- [day9_notes.md](day09/day9_notes.md) - Comprehensive asynchronous JavaScript guide
-
-**Key Learnings:**
-- Callbacks are basic but can lead to callback hell with nested functions
-- Promises provide better structure with .then(), .catch(), and .finally()
-- Async/Await offers the cleanest and most readable syntax
-- Understanding the Event Loop is crucial for debugging asynchronous code
-- Error handling patterns for each approach
-- Know when to use Promise.all() for multiple async operations
-
----
-
-## 🚀 How to Use This Repository
-
-### Prerequisites
-- Node.js installed on your system
-- A code editor (VS Code recommended)
-- Basic understanding of programming concepts
-
-### Running the Code
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/puloksingha/javascriptCourse.git
-   cd javascriptCourse
-   ```
-
-2. **Run individual day scripts:**
-   ```bash
-   # Day 1
-   node day1/script.js
-   
-   # Day 2
-   node day2/script.js
-
-   # Day 3
-   node day3/script.js
-   
-   # Day 4
-   node day4/script.js
-   
-   # Day 5
-   node day5/script.js
-   
-   # Day 6
-   node day6/script.js
-
-   # Day 7
-   node day7/script.js
-   
-   # Day 8 (requires browser)
-   # Open day8/index.html in a browser
-   
-   # Day 9
-   node day09/script.js
-   ```
-
-3. **Read the notes:**
-   - Each day folder contains a detailed notes file
-   - Review the notes before and after running the code
-   - Practice with the exercises provided
-
-## 📖 Learning Path
-
-1. Start with Day 1 to understand the basics
-2. Run the code examples and observe the output
-3. Read the corresponding notes file
-4. Complete the practice exercises
-5. Move to the next day when comfortable
-
-## 🎯 Learning Objectives
-
-By completing this course, you will:
-- ✅ Understand JavaScript fundamentals
-- ✅ Master variables and data types
-- ✅ Write clean, commented code
-- ✅ Use the console for debugging
-- ✅ Build a strong foundation for advanced topics
-
-## 📝 Course Progress
-
-- [x] Day 1: JavaScript Basics
-- [x] Day 2: Data Types
-- [x] Day 3: Expressions & Conditionals
-- [x] Day 4: Loops and Functions
-- [x] Day 5: JavaScript Strings
-- [x] Day 6: JavaScript Arrays
-- [x] Day 7: JavaScript in the Browser & Arrays
-- [x] Day 8: DOM (Document Object Model) Basics
-- [x] Day 9: Asynchronous JavaScript
-- [ ] Day 10: coming soon....
-
-## 🔗 Additional Resources
-
-- [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [JavaScript.info](https://javascript.info/)
-- [Node.js Documentation](https://nodejs.org/docs/)
-
-## 👨‍💻 Author
-
-**Pulok Singha**
-- GitHub: [@puloksingha](https://github.com/puloksingha)
-- LinkedIn: [Pulok Singha](https://www.linkedin.com/in/pulok-singha)
-- Repository: [javascriptCourse](https://github.com/puloksingha/javascriptCourse)
-
-## 📄 License
-
-This project is open source and available for educational purposes.
-
----
-
-**Happy Coding! Keep Learning JavaScript! 🚀**
